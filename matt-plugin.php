@@ -13,7 +13,7 @@
    
 //[foobar]
 function sidebar_func( $atts ){
-	return dynamic_sidebar( 'sidebar-1' ); 
+	dynamic_sidebar( 'sidebar-1' ); 
 }
 add_shortcode( 'sidebar_shorty', 'sidebar_func' );
 
