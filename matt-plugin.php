@@ -14,8 +14,8 @@
 //[foobar]
 function sidebar_func( $atts ){
 	echo dynamic_sidebar( 'sidebar-1' ); 
-	return dynamic_sidebar( 'sidebar-1' ); 
-	return "This is displaying the text but not the sidebar. Damn...";
+	//return dynamic_sidebar( 'sidebar-1' ); 
+	//return "This is displaying the text but not the sidebar. Damn...";
 }
 add_shortcode( 'sidebar_shorty', 'sidebar_func' );
 
